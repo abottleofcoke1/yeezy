@@ -1,0 +1,256 @@
+body {
+	
+    width: 100%;
+	zoom: 105%;
+	min-height: 490px;
+	max-height: 510px;
+    background: #171717;
+	font-family: Candara;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.header {
+	
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	transition: 0.3s;
+}
+
+.box {
+	
+	width: 600px;
+	height: 500px;
+	margin-top: 34px; 
+	border: 5px solid white;
+	border-radius: 8px;
+	margin-left: 314px;
+	transition: 0.25s;
+	background-image: url("file:///C:/Users/Mata/Downloads/cool-background.png");
+}
+
+.yeezy {
+	
+	width: 335spx;
+	height: 200px;
+	margin-top: 70px;
+	cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+	transition: 0.25s;
+	display: block;
+	color: blue;
+}
+
+.yeezySpace {
+	
+	margin-left: 122px;
+}
+
+.sizeSmallSpace {
+	
+    display: inline-block;
+	margin-top: 85px;
+}
+
+.sizeSmall {
+	
+	border: solid 1px black;
+	background-color: #F62217;
+	border-radius: 10px;
+	font-size: 21px;
+	padding: 4px 8px;
+	color: white;
+	cursor: pointer;
+	transition: 0.25s;
+	margin-left: 172px;
+	outline: none;
+}
+
+.sizeMediumSpace {
+	
+	display: inline-block;
+	margin-top: 85px;
+}
+
+.sizeMedium {
+
+	border: solid 1px black;
+	background-color: #F62217;
+	border-radius: 10px;
+	font-size: 21px;
+	padding: 4px 8px;
+	color: white;
+	cursor: pointer;
+	transition: 0.25s;
+	margin-left: 20px;
+	outline: none;
+}
+
+.sizeBigSpace {
+	
+	display: inline-block;
+	margin-top: 85px;
+}
+
+.sizeBig {
+	
+	border: solid 1px black;
+	background-color: #F62217;
+	border-radius: 10px;
+	font-size: 21px;
+	margin-left: 20px;
+	padding: 4px 8px;
+	color: white;
+	cursor: pointer;
+	transition: 0.25s;
+	outline: none;
+}
+
+.box:hover {
+	
+	transition: 0.25s;
+	border: 5px solid lightBlue;
+}
+
+.sizeSmall:hover {
+	
+	background-color: white;
+	color: black;
+	transition: 0.25s;
+}
+
+.sizeMedium:hover {
+	
+	background-color: white;
+	color: black;
+	transition: 0.25s;
+}
+
+.sizeBig:hover {
+	
+	background-color: white;
+	color: black;
+	transition: 0.25s;
+}
+
+.cartSpace {
+	
+	margin-top: 37px;
+	transition: 0.5s;
+}
+
+.cart {
+	
+	border-right: solid #4AA02C 2px;
+	border-left: solid #87F717 2px;
+	border-top: solid  #348017 2px;
+	border-bottom: solid #7FE817 2px;
+	border-radius: 15px;
+	padding: 10px 7px;
+    cursor: pointer;
+	outline: none;
+	color: black;
+	transition: all 0.5s;
+	font-size: 21px;
+	margin-left: 566px;
+	width: 120px;
+	background-color: #E5E4E2;
+}
+
+.betterVis {
+	
+	margin-top: 123px;
+	margin-left: 6px;
+}
+
+.betterVisBorder {
+	
+	cursor: pointer;
+	border-radius: 7px;
+	outline: none;
+	transition: 0.25s;
+}
+
+.betterVisBorder:hover {
+	
+	background-color: #6CC417;
+	transition: 0.25s;
+}
+
+.cart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cart span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.cart:hover span {
+  padding-right: 25px;
+  font-size: 23px;
+}
+
+.cart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.cart:hover {
+	
+	width: 155px;
+	margin-left: 549px;
+}
+
+.tooltip {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 21px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
