@@ -27,7 +27,7 @@ body {
 	border-radius: 8px;
 	margin-left: 314px;
 	transition: 0.25s;
-	background-image: src("https://i.imgur.com/MvIkwG6.png");
+	background-image: url("https://i.imgur.com/MvIkwG6.png");
 }
 
 .yeezy {
